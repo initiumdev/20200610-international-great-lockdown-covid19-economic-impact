@@ -67,14 +67,13 @@ img:not([alt]) {
 }
 
 .social-link {
-  /* border: 1px solid #00b0bd; */
   display: inline-block;
   position: relative;
   width: 100%;
   color: #75ace6;
   transition: all 0.5s;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.6em;
   cursor: pointer;
   /* margin-bottom: 2em */
 }
@@ -85,7 +84,7 @@ img:not([alt]) {
 
 /* NPR standard partials */
 footer {
-  background: #111;
+  /* background: #111; */
   color: #8b8b8b;
   padding: 10px 20px;
   position: relative;
@@ -150,6 +149,7 @@ svg {
   padding: 0;
   position: relative;
   box-sizing: border-box;
+  display: inline-block;
 }
 
 .headline {
@@ -190,33 +190,13 @@ h1>span:nth-child(2) {
 }
 
 @media (max-width: 1024px) and (orientation: portrait) {
+
   .cover__wrapper {
     bottom: 5%;
     left: 0;
     max-width: 100%;
     padding: 0.7em;
   }
-}
-
-.cover__share {
-  height: 35px;
-  margin-left: 5px;
-  display: block;
-}
-
-.cover__share a {
-  display: inline-block;
-  height: 24px;
-  margin-right: 1.2em;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  opacity: 0.8;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-}
-
-.cover__share--facebook {
-  width: 23px;
 }
 
 @media (max-width: 1024px) and (orientation: portrait) {
