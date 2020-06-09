@@ -41459,7 +41459,7 @@
         legendQ1.append("text").attr("x", 0).attr("y", 0).attr("dy", ".35em").attr("dx", "1em").text("2020年Q1（對比2019年Q4）：1.65億").classed("graphic-label", true);
         var legendQ2 = legend.append("g").classed("q2", true);
         var legendQ2Dot = legendQ2.append("circle").attr("cx", 0).attr("cy", 20).attr("r", 4).attr("opacity", 0).attr("fill", fillColor("Q2")).attr("stroke", "none");
-        var legendQ2Label = legendQ2.append("text").attr("x", 0).attr("y", 20).attr("dy", ".35em").attr("dx", "1em").attr("opacity", 0).text("2020年Q2（對比2020年Q1）：3.65億").classed("graphic-label", true);
+        var legendQ2Label = legendQ2.append("text").attr("x", 0).attr("y", 20).attr("dy", ".35em").attr("dx", "1em").attr("opacity", 0).text("2020年Q2（對比2020年Q1）：2億").classed("graphic-label", true);
         legendQ2Label.transition().delay(3800).duration(1000).attr("opacity", "1");
         legendQ2Dot.transition().delay(3800).duration(1000).attr("opacity", "1");
       }, 500);
