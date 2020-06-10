@@ -211,8 +211,8 @@ h1>span:nth-child(2) {
 
 @media (max-width: 1024px) and (orientation: portrait) {
 
-  .headline {
-    width: 80vw
+  h1 {
+    font-size: 1.6em
   }
 
   .cover__share--twitter {
@@ -322,7 +322,7 @@ body>svg {
 
   h1 {
     opacity: 0;
-    font-size: 3rem;
+    font-size: 2.2rem;
     animation: heading;
     -webkit-animation: heading;
     -moz-animation: heading;
@@ -343,7 +343,7 @@ body>svg {
   }
 
   h1>span {
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
 
   #噴霧 {
